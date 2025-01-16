@@ -1,6 +1,30 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
+}
+
+img {
+    width: 15rem;
+    margin-top: 2rem;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Optional: Ensures consistent sizing */
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
 }
 
 img {
